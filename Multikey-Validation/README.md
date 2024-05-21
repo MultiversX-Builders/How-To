@@ -71,7 +71,7 @@ git clone https://github.com/multiversx/mx-chain-scripts
 Open the variables.cfg file using your preferred text editor and modify the following variables:
 
 ```bash
-vim ~/mx-chain-scripts/variables.cfg
+vim ~/mx-chain-scripts/config/variables.cfg
 ```
 
 Replace USERNAME with the username you created in step 2.
