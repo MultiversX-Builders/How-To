@@ -186,7 +186,7 @@ ZGRhYWY5MTI5Y2NlOWQyOQ==
 -----END PRIVATE KEY for e296e97524483e6b59bce00cb7a69ec8c0d1ac4227925f07fdd57b3ab4ec2f64b240728a0a3c5be2930aea570bf12c12314e25d942b106472800e51524add26ec9546475c1cfae91dd7e799f256d1b0758e17aaa3898c29d489bd87c86d04498-----
 ```
 
-Then then have to create a new file called allValidatorsKey.pem and add the contents of all your validatorKey.pem files in it.
+Then then have to create a new file called allValidatorsKeys.pem and add the contents of all your validatorKey.pem files in it.
 
 ```bash
 -----BEGIN PRIVATE KEY for e296e97524483e6b59bce00cb7a69ec8c0d1ac4227925f07fdd57b3ab4ec2f64b240728a0a3c5be2930aea570bf12c12314e25d942b106472800e51524add26ec9546475c1cfae91dd7e799f256d1b0758e17aaa3898c29d489bd87c86d04498-----
@@ -205,7 +205,7 @@ NTA4YjFjMTVlYTIwNDYyMw==
 ...
 ```
 
-Then we will copy the allValidatorsKey.pem file into each node configuration folders:
+Then we will copy the allValidatorsKeys.pem file into each node configuration folders:
 
 ```bash
 cd ~/elrond-nodes
